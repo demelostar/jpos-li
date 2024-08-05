@@ -21,8 +21,8 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/ring0"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
 )
 
 // fpsimdPtr returns a fpsimd64 for the given address.

@@ -20,7 +20,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
+	"github.com/demelostar/jpos-li/pkg/gohacks"
 )
 
 // A BlockSeq represents a sequence of Blocks, each of which has non-zero

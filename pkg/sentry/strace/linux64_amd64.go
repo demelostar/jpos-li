@@ -18,8 +18,8 @@
 package strace
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
 )
 
 // linuxAMD64 provides a mapping of the Linux amd64 syscalls and their argument

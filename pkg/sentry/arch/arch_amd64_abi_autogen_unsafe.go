@@ -12,10 +12,10 @@
 package arch
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/gohacks"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal"
     "io"
     "reflect"
     "runtime"

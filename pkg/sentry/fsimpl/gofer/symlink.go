@@ -15,9 +15,9 @@
 package gofer
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
 )
 
 func (d *dentry) isSymlink() bool {

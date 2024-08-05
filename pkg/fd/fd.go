@@ -22,7 +22,7 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
 )
 
 // ReadWriter implements io.ReadWriter, io.ReaderAt, and io.WriterAt for fd. It

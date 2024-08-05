@@ -17,7 +17,7 @@ package atomicbitops
 import (
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // Float64 is an atomic 64-bit floating-point number.

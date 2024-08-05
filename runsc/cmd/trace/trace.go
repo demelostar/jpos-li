@@ -20,8 +20,8 @@ import (
 	"context"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/demelostar/jpos-li/pkg/sentry/seccheck"
+	"github.com/demelostar/jpos-li/runsc/flag"
 )
 
 // Trace implements subcommands.Command for the "trace" command.

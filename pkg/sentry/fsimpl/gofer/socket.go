@@ -16,12 +16,12 @@ package gofer
 
 import (
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket/unix/transport"
+	"github.com/demelostar/jpos-li/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 func (d *dentry) isSocket() bool {

@@ -15,11 +15,11 @@
 package linux
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
 )
 
 var afsSyscallPanic = atomicbitops.Bool{}

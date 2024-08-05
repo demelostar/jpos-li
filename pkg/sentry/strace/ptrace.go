@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
 )
 
 // PtraceRequestSet are the possible ptrace(2) requests.

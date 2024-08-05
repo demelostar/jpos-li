@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 // profileCPU returns a CPU profile over HTTP.

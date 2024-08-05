@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // TODO(b/240191988): There's some kind of memory corruption bug that occurs

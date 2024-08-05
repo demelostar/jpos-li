@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
 )
 
 // enableLogging controls whether to log the (de)serialization of netfilter

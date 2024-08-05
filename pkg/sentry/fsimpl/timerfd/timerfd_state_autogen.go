@@ -3,7 +3,7 @@
 package timerfd
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/demelostar/jpos-li/pkg/state"
 )
 
 func (tfd *TimerFileDescription) StateTypeName() string {

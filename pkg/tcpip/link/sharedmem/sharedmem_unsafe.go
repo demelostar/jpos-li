@@ -20,8 +20,8 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/memutil"
 )
 
 // sharedDataPointer converts the shared data slice into a pointer so that it

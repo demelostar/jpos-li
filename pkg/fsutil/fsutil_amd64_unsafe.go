@@ -21,7 +21,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/syserr"
 )
 
 // StatAt is a convenience wrapper around newfstatat(2).

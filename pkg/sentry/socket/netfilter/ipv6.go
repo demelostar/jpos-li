@@ -17,12 +17,12 @@ package netfilter
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
 )
 
 // emptyIPv6Filter is for comparison with a rule's filters to determine whether

@@ -15,12 +15,12 @@
 package memdev
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/rand"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/rand"
+	"github.com/demelostar/jpos-li/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/usermem"
 )
 
 const (

@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 func epollEvent(t *kernel.Task, eventAddr hostarch.Addr) string {

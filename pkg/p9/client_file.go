@@ -20,9 +20,9 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/fd"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 // Attach attaches to a server.

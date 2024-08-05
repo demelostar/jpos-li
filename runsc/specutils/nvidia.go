@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/runsc/config"
 )
 
 const nvdEnvVar = "NVIDIA_VISIBLE_DEVICES"

@@ -17,9 +17,9 @@ package mm
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
 )
 
 // AddressSpace returns the platform.AddressSpace bound to mm.

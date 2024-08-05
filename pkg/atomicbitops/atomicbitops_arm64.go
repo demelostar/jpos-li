@@ -21,7 +21,7 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/cpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
+	"github.com/demelostar/jpos-li/pkg/cpuid"
 )
 
 var arm64HasATOMICS bool

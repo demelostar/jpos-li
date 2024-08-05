@@ -14,7 +14,7 @@
 
 package kernel
 
-import "github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+import "github.com/demelostar/jpos-li/pkg/abi/linux"
 
 // +stateify savable
 type savedPendingSignal struct {

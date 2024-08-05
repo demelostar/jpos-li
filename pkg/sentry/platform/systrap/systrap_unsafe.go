@@ -18,9 +18,9 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
 )
 
 // getRegs gets the general purpose register set.

@@ -19,9 +19,9 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/nvgpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/abi/nvgpu"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
 )
 
 func frontendIoctlInvoke[Params any](fi *frontendIoctlState, sentryParams *Params) (uintptr, error) {

@@ -17,11 +17,11 @@ package kernel
 // Accounting, limits, timers.
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	ktime "github.com/demelostar/jpos-li/pkg/sentry/kernel/time"
+	"github.com/demelostar/jpos-li/pkg/sentry/limits"
+	"github.com/demelostar/jpos-li/pkg/sentry/usage"
 )
 
 // Getitimer implements getitimer(2).

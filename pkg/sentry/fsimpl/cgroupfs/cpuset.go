@@ -18,17 +18,17 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/bitmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/kernfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/bitmap"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/kernfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/usermem"
 )
 
 // +stateify savable

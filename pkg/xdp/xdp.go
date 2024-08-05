@@ -45,9 +45,9 @@ import (
 	"math/bits"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
+	"github.com/demelostar/jpos-li/pkg/cleanup"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/memutil"
 )
 
 // A ControlBlock contains all the control structures necessary to use an

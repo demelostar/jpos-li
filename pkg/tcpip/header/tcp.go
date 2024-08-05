@@ -18,9 +18,9 @@ import (
 	"encoding/binary"
 
 	"github.com/google/btree"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checksum"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/checksum"
+	"github.com/demelostar/jpos-li/pkg/tcpip/seqnum"
 )
 
 // These constants are the offsets of the respective fields in the TCP header.

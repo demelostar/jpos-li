@@ -15,7 +15,7 @@
 package shm
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/context"
 )
 
 type contextID int

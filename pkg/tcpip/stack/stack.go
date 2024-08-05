@@ -28,14 +28,14 @@ import (
 	"time"
 
 	"golang.org/x/time/rate"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	cryptorand "github.com/nicocha30/gvisor-ligolo/pkg/rand"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/ports"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/buffer"
+	"github.com/demelostar/jpos-li/pkg/log"
+	cryptorand "github.com/demelostar/jpos-li/pkg/rand"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/ports"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 const (

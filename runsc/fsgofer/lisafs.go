@@ -26,15 +26,15 @@ import (
 	"strconv"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	rwfd "github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fsutil"
-	"github.com/nicocha30/gvisor-ligolo/pkg/lisafs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/cleanup"
+	rwfd "github.com/demelostar/jpos-li/pkg/fd"
+	"github.com/demelostar/jpos-li/pkg/fsutil"
+	"github.com/demelostar/jpos-li/pkg/lisafs"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/runsc/config"
 )
 
 // LINT.IfChange

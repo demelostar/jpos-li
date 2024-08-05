@@ -24,10 +24,10 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/runsc/cmd/util"
+	"github.com/demelostar/jpos-li/runsc/config"
+	"github.com/demelostar/jpos-li/runsc/specutils"
 )
 
 // mountInChroot creates the destination mount point in the given chroot and

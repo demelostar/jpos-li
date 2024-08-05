@@ -19,11 +19,11 @@ import (
 	"strings"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/tmpfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/tmpfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/runsc/config"
+	"github.com/demelostar/jpos-li/runsc/specutils"
 )
 
 // MountPrefix is the annotation prefix for mount hints.

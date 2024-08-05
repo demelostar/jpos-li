@@ -19,14 +19,14 @@ package network
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/buffer"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/tcpip/transport"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 // Endpoint is a datagram-based endpoint. It only supports sending datagrams to

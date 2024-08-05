@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // syslog represents a sentry-global kernel log.

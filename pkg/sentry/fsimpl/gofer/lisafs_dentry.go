@@ -18,16 +18,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/lisafs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/lisafs"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket/unix/transport"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
 )
 
 func (fs *filesystem) handleAnameLisafs(ctx context.Context, rootInode lisafs.Inode) (lisafs.Inode, error) {

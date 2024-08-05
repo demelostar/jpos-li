@@ -17,8 +17,8 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
 )
 
 // syscallTableInfo is used to reload the SyscallTable.

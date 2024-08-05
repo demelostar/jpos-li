@@ -15,13 +15,13 @@
 package memdev
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/tmpfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/tmpfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/usermem"
 )
 
 const zeroDevMinor = 5

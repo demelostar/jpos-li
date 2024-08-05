@@ -15,9 +15,9 @@
 package unix
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket/unix/transport"
 )
 
 // EndpointWriter implements safemem.Writer that writes to a transport.Endpoint.

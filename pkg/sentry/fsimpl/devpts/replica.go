@@ -15,17 +15,17 @@
 package devpts
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/kernfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/kernfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 // replicaInode is the inode for the replica end of the Terminal.

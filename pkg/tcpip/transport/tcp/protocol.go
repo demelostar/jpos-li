@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/hash/jenkins"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header/parse"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/internal/tcp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/raw"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/hash/jenkins"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header/parse"
+	"github.com/demelostar/jpos-li/pkg/tcpip/internal/tcp"
+	"github.com/demelostar/jpos-li/pkg/tcpip/seqnum"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/tcpip/transport/raw"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 const (

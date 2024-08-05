@@ -19,11 +19,11 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/pool"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/unet"
+	"github.com/demelostar/jpos-li/pkg/flipcall"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/pool"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/unet"
 )
 
 // ErrOutOfTags indicates no tags are available.

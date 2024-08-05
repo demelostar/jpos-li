@@ -18,9 +18,9 @@ import (
 	"math"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
+	"github.com/demelostar/jpos-li/pkg/buffer"
+	"github.com/demelostar/jpos-li/pkg/eventfd"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/sharedmem/queue"
 )
 
 const (

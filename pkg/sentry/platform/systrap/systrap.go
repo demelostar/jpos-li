@@ -53,16 +53,16 @@ import (
 	"os"
 	"sync"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	pkgcontext "github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/interrupt"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/usertrap"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	pkgcontext "github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/memutil"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/pgalloc"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/interrupt"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/systrap/usertrap"
 )
 
 var (

@@ -15,18 +15,18 @@
 package linux
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/eventfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/eventfd"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	ktime "github.com/demelostar/jpos-li/pkg/sentry/kernel/time"
+	"github.com/demelostar/jpos-li/pkg/sentry/mm"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/usermem"
 )
 
 // IoSetup implements linux syscall io_setup(2).

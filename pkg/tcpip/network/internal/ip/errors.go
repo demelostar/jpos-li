@@ -17,7 +17,7 @@ package ip
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
 )
 
 // ForwardingError represents an error that occured while trying to forward

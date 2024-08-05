@@ -25,8 +25,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 // LINT.IfChange

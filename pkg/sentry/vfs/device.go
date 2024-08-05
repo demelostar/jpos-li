@@ -17,8 +17,8 @@ package vfs
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
 )
 
 // DeviceKind indicates whether a device is a block or character device.

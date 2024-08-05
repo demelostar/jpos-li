@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
+	"github.com/demelostar/jpos-li/pkg/eventfd"
 )
 
 const (

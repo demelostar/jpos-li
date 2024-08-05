@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/kernfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/kernfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sentry/usage"
 )
 
 // +stateify savable

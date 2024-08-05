@@ -19,7 +19,7 @@ package rawfile
 
 import (
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
 )
 
 const maxErrno = 134

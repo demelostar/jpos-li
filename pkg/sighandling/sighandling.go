@@ -21,7 +21,7 @@ import (
 	"reflect"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
 )
 
 // numSignals is the number of normal (non-realtime) signals on Linux.

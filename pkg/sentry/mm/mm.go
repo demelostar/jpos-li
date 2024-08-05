@@ -39,15 +39,15 @@ package mm
 import (
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/sentry/pgalloc"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
 )
 
 // MapsCallbackFunc has all the parameters required for populating an entry of /proc/[pid]/maps.

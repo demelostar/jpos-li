@@ -15,9 +15,9 @@
 package udp
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 // Forwarder is a session request forwarder, which allows clients to decide

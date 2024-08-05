@@ -20,13 +20,13 @@ import (
 	"strings"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bitmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/lock"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/bitmap"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/lock"
+	"github.com/demelostar/jpos-li/pkg/sentry/limits"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
 )
 
 // FDFlags define flags for an individual descriptor.

@@ -56,8 +56,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/compressio"
-	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
+	"github.com/demelostar/jpos-li/pkg/compressio"
+	"github.com/demelostar/jpos-li/pkg/state/wire"
 )
 
 // keySize is the AES-256 key length.

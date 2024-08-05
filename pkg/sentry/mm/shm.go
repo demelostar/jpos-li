@@ -15,11 +15,11 @@
 package mm
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/shm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/shm"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
 )
 
 // DetachShm unmaps a sysv shared memory segment.

@@ -19,15 +19,15 @@ import (
 	"strconv"
 
 	"google.golang.org/protobuf/proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/bits"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/metric"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/seccheck"
+	pb "github.com/demelostar/jpos-li/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 const (

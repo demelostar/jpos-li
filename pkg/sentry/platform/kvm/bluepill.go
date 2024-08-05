@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sighandling"
+	"github.com/demelostar/jpos-li/pkg/ring0"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sighandling"
 )
 
 // bluepill enters guest mode.

@@ -17,7 +17,7 @@ package transport
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
 )
 
 // DatagramEndpointState is the state of a datagram-based endpoint.

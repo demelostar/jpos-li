@@ -17,12 +17,12 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/sentry/mm"
+	"github.com/demelostar/jpos-li/pkg/usermem"
 )
 
 // ptraceOptions are the subset of options controlling a task's ptrace behavior

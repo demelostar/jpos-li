@@ -18,8 +18,8 @@
 package ring0
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/cpuid"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 // fxrstor restores floating point state.

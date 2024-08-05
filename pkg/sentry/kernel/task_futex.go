@@ -15,11 +15,11 @@
 package kernel
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/futex"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/futex"
+	"github.com/demelostar/jpos-li/pkg/usermem"
 )
 
 // Futex returns t's futex manager.

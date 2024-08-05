@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/gohacks"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // mountKey represents the location at which a Mount is mounted. It is

@@ -17,9 +17,9 @@
 package packetsocket
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/nested"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/nested"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
 )
 
 var _ stack.NetworkDispatcher = (*endpoint)(nil)

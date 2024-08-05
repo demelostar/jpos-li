@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safecopy"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/safecopy"
+	"github.com/demelostar/jpos-li/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/sentry/pgalloc"
+	"github.com/demelostar/jpos-li/pkg/sentry/usage"
 )
 
 // existingPMAsLocked checks that pmas exist for all addresses in ar, and

@@ -22,18 +22,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace/strace_go_proto"
-	slinux "github.com/nicocha30/gvisor-ligolo/pkg/sentry/syscalls/linux"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/bits"
+	"github.com/demelostar/jpos-li/pkg/eventchannel"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/seccomp"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	pb "github.com/demelostar/jpos-li/pkg/sentry/strace/strace_go_proto"
+	slinux "github.com/demelostar/jpos-li/pkg/sentry/syscalls/linux"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 // DefaultLogMaximumSize is the default LogMaximumSize.

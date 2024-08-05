@@ -21,8 +21,8 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux/errno"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
+	"github.com/demelostar/jpos-li/pkg/abi/linux/errno"
+	"github.com/demelostar/jpos-li/pkg/errors"
 )
 
 const maxErrno uint32 = errno.EHWPOISON + 1

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
 )
 
 // Cgroups contains the state for cgroupfs related control commands.

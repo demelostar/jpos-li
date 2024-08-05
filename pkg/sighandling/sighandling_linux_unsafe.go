@@ -22,7 +22,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
 )
 
 // IgnoreChildStop sets the SA_NOCLDSTOP flag, causing child processes to not

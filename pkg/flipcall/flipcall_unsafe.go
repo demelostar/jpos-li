@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // Packets consist of a 16-byte header followed by an arbitrarily-sized

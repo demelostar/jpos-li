@@ -1,7 +1,7 @@
 package mm
 
 import (
-	__generics_imported0 "github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
+	__generics_imported0 "github.com/demelostar/jpos-li/pkg/sentry/memmap"
 )
 
 import (

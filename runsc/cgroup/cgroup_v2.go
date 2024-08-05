@@ -35,8 +35,8 @@ import (
 	"github.com/coreos/go-systemd/v22/dbus"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/cleanup"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 const (

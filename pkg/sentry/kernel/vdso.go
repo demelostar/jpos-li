@@ -17,10 +17,10 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/sentry/pgalloc"
 )
 
 // vdsoParams are the parameters exposed to the VDSO.

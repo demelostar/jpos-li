@@ -20,11 +20,11 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safecopy"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/safecopy"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/systrap/sysmsg"
 )
 
 // initStubProcess is defined in arch-specific assembly.

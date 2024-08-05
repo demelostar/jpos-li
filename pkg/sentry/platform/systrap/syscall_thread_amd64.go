@@ -22,7 +22,7 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
 )
 
 func (t *syscallThread) detach() {

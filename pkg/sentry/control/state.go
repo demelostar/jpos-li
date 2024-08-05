@@ -17,12 +17,12 @@ package control
 import (
 	"errors"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/state"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/watchdog"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/state"
+	"github.com/demelostar/jpos-li/pkg/sentry/watchdog"
+	"github.com/demelostar/jpos-li/pkg/urpc"
 )
 
 // ErrInvalidFiles is returned when the urpc call to Save does not include an

@@ -18,15 +18,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/netlink"
-	slinux "github.com/nicocha30/gvisor-ligolo/pkg/sentry/syscalls/linux"
+	"github.com/demelostar/jpos-li/pkg/abi"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/bits"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket/netlink"
+	slinux "github.com/demelostar/jpos-li/pkg/sentry/syscalls/linux"
 )
 
 // SocketFamily are the possible socket(2) families.

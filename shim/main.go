@@ -16,7 +16,7 @@
 package main
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/shim/cli"
+	"github.com/demelostar/jpos-li/shim/cli"
 )
 
 func main() {

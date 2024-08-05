@@ -24,12 +24,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/tcp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport/udp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/tcpip/transport/tcp"
+	"github.com/demelostar/jpos-li/pkg/tcpip/transport/udp"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 var (

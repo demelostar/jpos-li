@@ -3,8 +3,8 @@ package vfs
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/refs"
 )
 
 // enableLogging indicates whether reference-related events should be logged (with

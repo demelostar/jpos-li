@@ -18,7 +18,7 @@
 package xdp
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
 )
 
 // The CompletionQueue is how the kernel tells a process which buffers have

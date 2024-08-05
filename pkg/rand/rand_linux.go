@@ -22,7 +22,7 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // reader implements an io.Reader that returns pseudorandom bytes.

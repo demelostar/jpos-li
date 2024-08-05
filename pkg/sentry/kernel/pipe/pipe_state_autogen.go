@@ -3,7 +3,7 @@
 package pipe
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/demelostar/jpos-li/pkg/state"
 )
 
 func (p *Pipe) StateTypeName() string {

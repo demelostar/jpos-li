@@ -14,7 +14,7 @@
 
 package systrap
 
-import "github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+import "github.com/demelostar/jpos-li/pkg/seccomp"
 
 func appendSysThreadArchSeccompRules(rules []seccomp.RuleSet) []seccomp.RuleSet {
 	return rules

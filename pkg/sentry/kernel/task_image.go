@@ -17,14 +17,14 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux/errno"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/futex"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/loader"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/abi/linux/errno"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/futex"
+	"github.com/demelostar/jpos-li/pkg/sentry/loader"
+	"github.com/demelostar/jpos-li/pkg/sentry/mm"
+	"github.com/demelostar/jpos-li/pkg/syserr"
 )
 
 var errNoSyscalls = syserr.New("no syscall table found", errno.ENOEXEC)

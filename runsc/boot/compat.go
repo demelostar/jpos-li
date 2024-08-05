@@ -20,12 +20,12 @@ import (
 
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	rpb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
-	spb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/unimpl/unimplemented_syscall_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/eventchannel"
+	"github.com/demelostar/jpos-li/pkg/log"
+	rpb "github.com/demelostar/jpos-li/pkg/sentry/arch/registers_go_proto"
+	"github.com/demelostar/jpos-li/pkg/sentry/strace"
+	spb "github.com/demelostar/jpos-li/pkg/sentry/unimpl/unimplemented_syscall_go_proto"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 func initCompatLogs(fd int) error {

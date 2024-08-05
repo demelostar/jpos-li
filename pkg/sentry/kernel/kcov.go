@@ -19,16 +19,16 @@ import (
 	"io"
 	"sync"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/coverage"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/coverage"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/sentry/mm"
+	"github.com/demelostar/jpos-li/pkg/sentry/pgalloc"
+	"github.com/demelostar/jpos-li/pkg/sentry/usage"
 )
 
 // kcovAreaSizeMax is the maximum number of uint64 entries allowed in the kcov

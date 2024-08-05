@@ -26,10 +26,10 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/pgalloc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/memmap"
+	"github.com/demelostar/jpos-li/pkg/sentry/pgalloc"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/systrap/sysmsg"
 )
 
 //go:linkname beforeFork syscall.runtime_BeforeFork

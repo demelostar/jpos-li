@@ -1,4 +1,4 @@
-module github.com/nicocha30/gvisor-ligolo
+module github.com/demelostar/jpos-li
 
 go 1.20
 

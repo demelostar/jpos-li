@@ -15,7 +15,7 @@
 package systrap
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
 )
 
 func stackPointer(r *arch.Registers) uintptr {

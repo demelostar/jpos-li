@@ -71,7 +71,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 const (

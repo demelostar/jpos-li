@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // Int64 is an atomic int64 that is guaranteed to be 64-bit

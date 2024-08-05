@@ -3,8 +3,8 @@ package nvproxy
 import (
 	"reflect"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync/locking"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync/locking"
 )
 
 // Mutex is sync.Mutex with the correctness validator.

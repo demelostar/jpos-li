@@ -15,13 +15,13 @@
 package kvm
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	pkgcontext "github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/interrupt"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	pkgcontext "github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/ring0"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/interrupt"
 )
 
 // context is an implementation of the platform context.

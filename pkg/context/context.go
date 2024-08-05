@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 // Blocker represents an object with control flow hooks.

@@ -15,7 +15,7 @@
 package pipe
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
+	"github.com/demelostar/jpos-li/pkg/safemem"
 )
 
 // afterLoad is called by stateify.

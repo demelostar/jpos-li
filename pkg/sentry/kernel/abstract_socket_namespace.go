@@ -18,10 +18,10 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/unix/transport"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/refs"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket/unix/transport"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // +stateify savable

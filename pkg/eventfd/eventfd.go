@@ -20,8 +20,8 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/rawfile"
 )
 
 const sizeofUint64 = 8

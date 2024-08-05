@@ -16,7 +16,7 @@
 package main
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/webhook/pkg/cli"
+	"github.com/demelostar/jpos-li/webhook/pkg/cli"
 )
 
 func main() {

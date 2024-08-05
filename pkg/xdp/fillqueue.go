@@ -18,7 +18,7 @@
 package xdp
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
 )
 
 // The FillQueue is how a process tells the kernel which buffers are available

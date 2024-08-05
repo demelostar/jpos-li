@@ -15,10 +15,10 @@
 package fuse
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/devtmpfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/devtmpfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
 )
 
 // Register registers the FUSE device with vfsObj.

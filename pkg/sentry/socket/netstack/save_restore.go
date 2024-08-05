@@ -15,7 +15,7 @@
 package netstack
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
 )
 
 // afterLoad is invoked by stateify.

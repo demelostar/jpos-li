@@ -22,12 +22,12 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/stopfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/buffer"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/rawfile"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/stopfd"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
 )
 
 const (

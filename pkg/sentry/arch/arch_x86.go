@@ -22,11 +22,11 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
-	rpb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/cpuid"
+	"github.com/demelostar/jpos-li/pkg/errors/linuxerr"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch/fpu"
+	rpb "github.com/demelostar/jpos-li/pkg/sentry/arch/registers_go_proto"
 )
 
 // Registers represents the CPU registers for this architecture.

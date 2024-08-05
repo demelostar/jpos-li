@@ -18,11 +18,11 @@
 package filter
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/devices/accel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/devices/nvproxy"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/seccomp"
+	"github.com/demelostar/jpos-li/pkg/sentry/devices/accel"
+	"github.com/demelostar/jpos-li/pkg/sentry/devices/nvproxy"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
 )
 
 // Options are seccomp filter related options.

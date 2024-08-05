@@ -22,9 +22,9 @@ import (
 
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/runsc/cmd/util"
+	"github.com/demelostar/jpos-li/runsc/flag"
 )
 
 // Umount implements subcommands.Command for the "umount" command.

@@ -47,13 +47,13 @@ package ptrace
 import (
 	"os"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	pkgcontext "github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/interrupt"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	pkgcontext "github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/interrupt"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 var (

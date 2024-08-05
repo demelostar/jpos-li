@@ -17,9 +17,9 @@ package control
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sniffer"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/strace"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/sniffer"
 )
 
 // LoggingArgs are the arguments to use for changing the logging

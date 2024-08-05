@@ -3,7 +3,7 @@
 package network
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/demelostar/jpos-li/pkg/state"
 )
 
 func (e *Endpoint) StateTypeName() string {

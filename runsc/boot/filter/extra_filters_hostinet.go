@@ -16,9 +16,9 @@ package filter
 
 import (
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/hostinet"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/seccomp"
+	"github.com/demelostar/jpos-li/pkg/sentry/socket/hostinet"
 )
 
 // hostInetFilters contains syscalls that are needed by sentry/socket/hostinet.

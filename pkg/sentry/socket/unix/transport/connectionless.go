@@ -15,10 +15,10 @@
 package transport
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/waiter"
 )
 
 // connectionlessEndpoint is a unix endpoint for unix sockets that support operating in

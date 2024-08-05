@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/context"
 )
 
 // AIOCallback is an function that does asynchronous I/O on behalf of a task.

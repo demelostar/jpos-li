@@ -58,7 +58,7 @@
 package waiter
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // EventMask represents io events as used in the poll() syscall.

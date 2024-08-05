@@ -18,7 +18,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/demelostar/jpos-li/pkg/syserr"
 )
 
 // UnixDirentMaxSize is the maximum size of unix.Dirent in bytes.

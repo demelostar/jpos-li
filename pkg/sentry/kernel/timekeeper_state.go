@@ -15,7 +15,7 @@
 package kernel
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/time"
+	"github.com/demelostar/jpos-li/pkg/sentry/time"
 )
 
 // beforeSave is invoked by stateify.

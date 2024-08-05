@@ -15,7 +15,7 @@
 package linux
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
+	"github.com/demelostar/jpos-li/pkg/marshal"
 )
 
 // Address families, from linux/socket.h.

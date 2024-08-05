@@ -22,10 +22,10 @@ import (
 	"runtime"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
-	"github.com/nicocha30/gvisor-ligolo/runsc/mitigate"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/runsc/cmd/util"
+	"github.com/demelostar/jpos-li/runsc/flag"
+	"github.com/demelostar/jpos-li/runsc/mitigate"
 )
 
 const (

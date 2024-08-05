@@ -18,10 +18,10 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fdchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/fd"
+	"github.com/demelostar/jpos-li/pkg/fdchannel"
+	"github.com/demelostar/jpos-li/pkg/flipcall"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 // channelsPerClient is the number of channels to create per client.

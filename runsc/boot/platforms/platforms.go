@@ -20,7 +20,7 @@ package platforms
 
 import (
 	// Import platforms that runsc might use.
-	_ "github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/kvm"
-	_ "github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/ptrace"
-	_ "github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap"
+	_ "github.com/demelostar/jpos-li/pkg/sentry/platform/kvm"
+	_ "github.com/demelostar/jpos-li/pkg/sentry/platform/ptrace"
+	_ "github.com/demelostar/jpos-li/pkg/sentry/platform/systrap"
 )

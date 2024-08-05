@@ -32,7 +32,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/gohacks"
+	"github.com/demelostar/jpos-li/pkg/gohacks"
 )
 
 // Reader is the required reader interface.

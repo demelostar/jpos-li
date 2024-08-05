@@ -22,15 +22,15 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/qdisc/fifo"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/rawfile"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/stopfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/xdp"
+	"github.com/demelostar/jpos-li/pkg/buffer"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/qdisc/fifo"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/rawfile"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/stopfd"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/xdp"
 )
 
 // TODO(b/240191988): Turn off GSO, GRO, and LRO. Limit veth MTU to 1500.

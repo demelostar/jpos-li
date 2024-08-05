@@ -19,9 +19,9 @@ package queue
 import (
 	"encoding/binary"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/sharedmem/pipe"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsmetric"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsmetric"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/sentry/usage"
+	"github.com/demelostar/jpos-li/pkg/urpc"
 )
 
 // Usage includes usage-related RPC stubs.

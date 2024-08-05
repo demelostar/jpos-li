@@ -20,13 +20,13 @@ import (
 	"strings"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fspath"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/p9"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/cleanup"
+	"github.com/demelostar/jpos-li/pkg/flipcall"
+	"github.com/demelostar/jpos-li/pkg/fspath"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/p9"
 )
 
 const (

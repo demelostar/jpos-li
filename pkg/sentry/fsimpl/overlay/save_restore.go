@@ -15,7 +15,7 @@
 package overlay
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/demelostar/jpos-li/pkg/refs"
 )
 
 func (d *dentry) afterLoad() {

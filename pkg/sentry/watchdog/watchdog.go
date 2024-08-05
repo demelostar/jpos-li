@@ -33,12 +33,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/metric"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
+	ktime "github.com/demelostar/jpos-li/pkg/sentry/kernel/time"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // Opts configures the watchdog.

@@ -18,8 +18,8 @@
 package filter
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/seccomp"
 )
 
 // Options are seccomp filter related options.

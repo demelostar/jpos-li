@@ -21,8 +21,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/eventfd"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 // NotifyCurrentMemcgPressureCallback requests that f is called whenever the

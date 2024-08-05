@@ -3,7 +3,7 @@
 package auth
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/demelostar/jpos-li/pkg/state"
 )
 
 func (c *Credentials) StateTypeName() string {

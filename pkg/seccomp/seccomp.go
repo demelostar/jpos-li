@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bpf"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/bpf"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 const (

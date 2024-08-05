@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syncevent"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform/systrap/sysmsg"
+	"github.com/demelostar/jpos-li/pkg/syncevent"
 )
 
 const (

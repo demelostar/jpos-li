@@ -23,11 +23,11 @@ import (
 	"math/rand"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/sentry/arch/fpu"
+	"github.com/demelostar/jpos-li/pkg/sentry/limits"
 )
 
 // Host specifies the host architecture.

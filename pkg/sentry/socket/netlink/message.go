@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/bits"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/marshal"
+	"github.com/demelostar/jpos-li/pkg/marshal/primitive"
 )
 
 // alignPad returns the length of padding required for alignment.

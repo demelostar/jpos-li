@@ -14,7 +14,7 @@
 
 package tcp
 
-import "github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+import "github.com/demelostar/jpos-li/pkg/tcpip/seqnum"
 
 // sackRecovery stores the variables related to TCP SACK loss recovery
 // algorithm.

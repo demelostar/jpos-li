@@ -3,7 +3,7 @@
 package ipv4
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/demelostar/jpos-li/pkg/state"
 )
 
 func (i *icmpv4DestinationUnreachableSockError) StateTypeName() string {

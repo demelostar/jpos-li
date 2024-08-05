@@ -20,7 +20,7 @@ package pagetables
 import (
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 // archPageTables is architecture-specific data.

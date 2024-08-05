@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/goid"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/goid"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 // NewMutexClass allocates a new mutex class.

@@ -49,14 +49,14 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runtimeoptions/v14"
+	"github.com/demelostar/jpos-li/pkg/cleanup"
+	"github.com/demelostar/jpos-li/pkg/shim/runtimeoptions/v14"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/proc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runsc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runtimeoptions"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/utils"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/demelostar/jpos-li/pkg/shim/proc"
+	"github.com/demelostar/jpos-li/pkg/shim/runsc"
+	"github.com/demelostar/jpos-li/pkg/shim/runtimeoptions"
+	"github.com/demelostar/jpos-li/pkg/shim/utils"
+	"github.com/demelostar/jpos-li/runsc/specutils"
 )
 
 var (

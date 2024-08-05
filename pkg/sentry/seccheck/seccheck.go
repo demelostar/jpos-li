@@ -18,10 +18,10 @@ package seccheck
 
 import (
 	"google.golang.org/protobuf/proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/context"
+	pb "github.com/demelostar/jpos-li/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // A Point represents a checkpoint, a point at which a security check occurs.

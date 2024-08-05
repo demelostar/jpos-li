@@ -54,7 +54,7 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 var bufPool = sync.Pool{

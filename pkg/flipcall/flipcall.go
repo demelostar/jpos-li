@@ -21,8 +21,8 @@ import (
 	"math"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/memutil"
 )
 
 // An Endpoint provides the ability to synchronously transfer data and control

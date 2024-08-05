@@ -23,8 +23,8 @@ import (
 
 	"github.com/google/subcommands"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/demelostar/jpos-li/runsc/cmd/util"
+	"github.com/demelostar/jpos-li/runsc/flag"
 )
 
 func writeSpec(w io.Writer, cwd string, netns string, args []string) error {

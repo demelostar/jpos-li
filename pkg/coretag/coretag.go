@@ -21,7 +21,7 @@ import (
 	"strconv"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
 )
 
 // Enable core tagging. If this returns with no error, all threads in the

@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/metric/metric_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/prometheus"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/eventchannel"
+	"github.com/demelostar/jpos-li/pkg/log"
+	pb "github.com/demelostar/jpos-li/pkg/metric/metric_go_proto"
+	"github.com/demelostar/jpos-li/pkg/prometheus"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 var (

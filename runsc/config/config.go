@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/watchdog"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
-	"github.com/nicocha30/gvisor-ligolo/runsc/version"
+	"github.com/demelostar/jpos-li/pkg/refs"
+	"github.com/demelostar/jpos-li/pkg/sentry/watchdog"
+	"github.com/demelostar/jpos-li/runsc/flag"
+	"github.com/demelostar/jpos-li/runsc/version"
 )
 
 // Config holds configuration that is not part of the runtime spec.

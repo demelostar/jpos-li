@@ -19,7 +19,7 @@ package xdp
 
 import (
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
 )
 
 // The RXQueue is how the kernel tells a process which buffers are full with

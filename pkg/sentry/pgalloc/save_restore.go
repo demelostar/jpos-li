@@ -22,12 +22,12 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
-	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/sentry/usage"
+	"github.com/demelostar/jpos-li/pkg/state"
+	"github.com/demelostar/jpos-li/pkg/state/wire"
 )
 
 // SaveTo writes f's state to the given stream.

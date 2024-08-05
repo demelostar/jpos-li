@@ -15,8 +15,8 @@
 package lisafs
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // Server serves a filesystem tree. Multiple connections on different mount

@@ -15,7 +15,7 @@
 package pagetables
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // PCIDs is a simple PCID database.

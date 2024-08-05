@@ -29,13 +29,13 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
-	"github.com/nicocha30/gvisor-ligolo/runsc/boot"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/demelostar/jpos-li/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/urpc"
+	"github.com/demelostar/jpos-li/runsc/boot"
+	"github.com/demelostar/jpos-li/runsc/config"
+	"github.com/demelostar/jpos-li/runsc/specutils"
 )
 
 // setupNetwork configures the network stack to mimic the local network

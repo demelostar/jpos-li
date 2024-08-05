@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"github.com/google/btree"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/seqnum"
 )
 
 const (

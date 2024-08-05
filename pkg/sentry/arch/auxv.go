@@ -15,7 +15,7 @@
 package arch
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 // An AuxEntry represents an entry in an ELF auxiliary vector.

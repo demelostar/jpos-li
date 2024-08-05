@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // Waiter allows a goroutine to block on pending events received by a Receiver.

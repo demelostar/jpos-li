@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
+	"github.com/demelostar/jpos-li/pkg/eventchannel"
+	"github.com/demelostar/jpos-li/pkg/urpc"
 )
 
 // EventsOpts are the arguments for eventchannel-related commands.

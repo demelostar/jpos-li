@@ -17,8 +17,8 @@
 package unimpl
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 // contextID is the events package's type for context.Context.Value keys.

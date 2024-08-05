@@ -3,8 +3,8 @@ package kernfs
 import (
 	"reflect"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync/locking"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sync/locking"
 )
 
 // RWMutex is sync.RWMutex with the correctness validator.

@@ -18,7 +18,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
 )
 
 type timerState int

@@ -22,9 +22,9 @@ import (
 	"strings"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/coverage"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/demelostar/jpos-li/pkg/coverage"
+	"github.com/demelostar/jpos-li/runsc/cmd/util"
+	"github.com/demelostar/jpos-li/runsc/flag"
 )
 
 // Symbolize implements subcommands.Command for the "symbolize" command.

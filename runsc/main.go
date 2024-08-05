@@ -19,8 +19,8 @@
 package main
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/runsc/cli"
-	"github.com/nicocha30/gvisor-ligolo/runsc/version"
+	"github.com/demelostar/jpos-li/runsc/cli"
+	"github.com/demelostar/jpos-li/runsc/version"
 )
 
 // version.Version is set dynamically, but needs to be

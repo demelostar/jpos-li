@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checksum"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/checksum"
 )
 
 const (

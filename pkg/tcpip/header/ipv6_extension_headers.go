@@ -21,8 +21,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/buffer"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
 )
 
 // IPv6ExtensionHeaderIdentifier is an IPv6 extension header identifier.

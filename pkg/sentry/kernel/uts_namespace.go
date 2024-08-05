@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // UTSNamespace represents a UTS namespace, a holder of two system identifiers:

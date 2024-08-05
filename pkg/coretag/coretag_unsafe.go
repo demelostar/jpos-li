@@ -19,7 +19,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
+	"github.com/demelostar/jpos-li/pkg/abi/linux"
 )
 
 // getCoreTag returns the core tag of the tid. Only available on linux kernel >= 5.14.

@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 // systemMMapMinAddrSource is the source file.

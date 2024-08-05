@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header/parse"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/ip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/tcpip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header"
+	"github.com/demelostar/jpos-li/pkg/tcpip/header/parse"
+	"github.com/demelostar/jpos-li/pkg/tcpip/network/internal/ip"
+	"github.com/demelostar/jpos-li/pkg/tcpip/stack"
 )
 
 const (

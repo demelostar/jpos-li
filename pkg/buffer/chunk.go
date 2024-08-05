@@ -17,8 +17,8 @@ package buffer
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/demelostar/jpos-li/pkg/bits"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 const (

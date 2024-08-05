@@ -17,14 +17,14 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/mqfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/mq"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/msgqueue"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/semaphore"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/shm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/sentry/fsimpl/mqfs"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/auth"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/mq"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/msgqueue"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/semaphore"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel/shm"
+	"github.com/demelostar/jpos-li/pkg/sentry/vfs"
 )
 
 // IPCNamespace represents an IPC namespace.

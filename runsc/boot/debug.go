@@ -15,7 +15,7 @@
 package boot
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/demelostar/jpos-li/pkg/log"
 )
 
 type debug struct {

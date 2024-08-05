@@ -18,8 +18,8 @@
 package hostinet
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/sentry/kernel"
 )
 
 func extraSockOpts(t *kernel.Task) []SockOpt {

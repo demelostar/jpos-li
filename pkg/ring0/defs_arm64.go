@@ -18,7 +18,7 @@
 package ring0
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 
 	"github.com/google/subcommands"
 	"google.golang.org/protobuf/encoding/prototext"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/demelostar/jpos-li/pkg/metric"
+	"github.com/demelostar/jpos-li/runsc/cmd/util"
+	"github.com/demelostar/jpos-li/runsc/flag"
 )
 
 // MetricMetadata implements subcommands.Command for the "metric-metadata" command.

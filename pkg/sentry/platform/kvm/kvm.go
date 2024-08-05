@@ -20,12 +20,12 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	pkgcontext "github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0/pagetables"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	pkgcontext "github.com/demelostar/jpos-li/pkg/context"
+	"github.com/demelostar/jpos-li/pkg/hostarch"
+	"github.com/demelostar/jpos-li/pkg/ring0"
+	"github.com/demelostar/jpos-li/pkg/ring0/pagetables"
+	"github.com/demelostar/jpos-li/pkg/sentry/platform"
+	"github.com/demelostar/jpos-li/pkg/sync"
 )
 
 // userMemoryRegion is a region of physical memory.

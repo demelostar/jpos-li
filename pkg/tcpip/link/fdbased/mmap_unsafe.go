@@ -22,8 +22,8 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/stopfd"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/tcpip/link/stopfd"
 )
 
 // tPacketHdrlen is the TPACKET_HDRLEN variable defined in <linux/if_packet.h>.

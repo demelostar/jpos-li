@@ -19,7 +19,7 @@ package xdp
 
 import (
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/demelostar/jpos-li/pkg/atomicbitops"
 )
 
 // The TXQueue is how a process tells the kernel which buffers are available to
